@@ -1,0 +1,547 @@
+/***** BEGIN DOCUMENTATION *****
+
+------------------------------ 
+NAVBAR: https://jsfiddle.net/ayoisaiah/Lr9nadmw/3/
+------------------------------ 
+<nav class="navbar">
+  <a href="https://freecodecamp.org" class="logo">
+    <img src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="freeCodeCamp logo">
+  </a>
+  <ul class="nav-links">
+    <li class="nav-item"><a href="#">Curriculum</a></li>
+    <li class="nav-item"><a href="#">Forum</a></li>
+    <li class="nav-item"><a href="#">News</a></li>
+    <li class="nav-item"><a href="#">Sign in</a></li>
+  </ul>
+</nav>
+
+nav {
+width: 100%;
+background-color: darkgreen;
+padding-left: 30px;
+padding-right: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+display: inline-block;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+}
+
+.nav-item a {
+display: inline-block;
+padding: 10px 15px;
+text-decoration: none;
+color: white;
+}
+
+.nav-item:hover {
+background-color: white;
+}
+
+.nav-item:hover a {
+color: darkgreen;
+}
+
+.logo img {
+width: 175px;
+vertical-align: middle;
+}
+
+------------------------------ 
+FONT-FACE CSS GENERATOR & CONVERTER: https://transfonter.org/
+------------------------------ 
+RESPONSIVE TYPOGRAPHY ALGORITHM:
+https://css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/
+body {
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+ie:
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+------------------------------ 
+CSS ASTRONAUT PARALLAX [TODO]
+------------------------------ 
+https://bashooka.com/coding/pure-css-parallax-scrolling-examples/
+
+
+------------------------------
+BUGS & OTHER POTENTIAL ISSUES
+------------------------------ 
+In index.html, the blue word wraps past the screen width
+if it is too long, look into different options to fix this
+ie: css: text-overflow, white-space, word-break, line-break,
+overflow-wrap on the text. Also, when the word is 'deleting',
+we had to place a <br> to ensure the content below doesn't
+jiggle. This could probably be fixed by setting a min-height
+on the container; but the solution may leave a lot of 
+empty space when shorter words are being displayed.
+Look for <!-- br stops jiggling of content below --> in html.
+try: https://css-tricks.com/content-jumping-avoid/
+
+****** END OF DOCUMENTATION ******/
+
+
+
+/***** BEGIN WEBSITE CSS *****/
+
+/* 
+THE SIMPLE RESET (if cssReset causes problems, revert to this)
+
+*, *::after, *::before {margin: 0;padding: 0;box-sizing: inherit;}
+
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   CSS-Reset | v2.0 | 20110126
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* UNCOMMENT FOR CSS DEBUGGER 
+(must be after cssreset and * rules && before all other css)
+*:not(path):not(g) {    
+outline: solid 1px rgba(39, 255, 21, 0.3) !important;
+box-shadow: none !important;
+}
+*/
+
+@font-face {
+font-family: 'Arimo';
+src: url('../css/Arimo-BoldItalic.ttf') format('truetype');
+font-weight: bold;
+font-style: italic;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('../css/Arimo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('../css/Arimo-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('../css/Arimo-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+html {  
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  color: #fff;
+
+  background-image: 
+    linear-gradient(
+    125deg, 
+    rgba(0,0,0,.75) 20%, 
+    rgba(255,255,255,.35) 100%),
+    url(../img/hero-space.png);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* no scrollbars, but can scroll */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a:link {
+  color:#0ac2b3;
+  text-decoration: underline;
+}
+
+a:visited {
+  color:#0ac2b3;
+  text-decoration: underline;
+}
+
+a:hover{
+  color:#3bc2b7;
+  text-decoration: none;
+}
+
+hr {
+  width: 65%;
+  border-top: 3px solid white;
+}
+
+
+::selection{
+    background:#00ecd9;
+}
+::-moz-selection{
+    background:#00ecd9;
+}
+
+.navbar{
+  display: flex;
+  flex-wrap: wrap;  
+  padding: 25px 0px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+
+/* PrismXR Navbar Logo*/
+.navbar img {
+  height: 100px;
+  padding: 0px 25px;
+  vertical-align: middle; 
+  display: inline-block;
+}
+
+.navlogotxt{
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  letter-spacing: 3px;
+  line-height: 1.4;
+}
+
+.navlogotxt:hover{
+  color:#0ac2b3;
+  text-decoration: none;
+}
+
+.navlinks{
+  list-style: none;
+  display: flex;
+}
+
+.navitem a{
+  color: #fff;
+  display: inline-block;
+  padding: 0px 25px;
+  text-decoration: none;
+}
+
+.navitem a:hover{
+  color:#0ac2b3;
+  text-decoration: none;
+}
+
+
+.contentwrapper {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.astronaut-box {  
+  position: absolute;
+  top: 24%;
+  left: 53%; 
+  z-index: -1;  
+}
+
+.astronaut {  
+  height: 400px;
+  filter: 
+    brightness(75%) 
+    contrast(70%) 
+    saturate(120%);
+}
+
+
+
+/********* SPANS *********/
+
+.scrolltext {
+  display: block;
+  margin: 80px 0;
+}
+
+.scrolltext p {
+  font-size: calc(32px + (72 - 32) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 1.25;
+  font-weight: bold;
+  text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.70);
+}
+
+.strcolor{
+  color:#0ac2b3;
+}
+
+.barcode{
+  width: 75%;
+  padding: 10px;
+  vertical-align: middle; 
+}
+
+.bigint{
+  font-size: calc(24px + (44 - 24) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.lighter{
+  font-weight: lighter;
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.twodots{
+  display:inline-block;
+  line-height: 0.7;
+  margin: 10px 0;
+}
+
+/********* END SPANS *********/
+
+
+/********* START GRIDS *********/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "a1 a2 a3";
+  grid-gap: 10px;
+
+  border-top: 3px solid white;
+  align-items: center;
+  padding: 40px 0;
+
+  font-weight: bold;
+  line-height: 1;
+  white-space: nowrap;
+  font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+.a1{ 
+  grid-area: a1;
+  line-height: 1.3;
+}
+
+.a2{ 
+  grid-area: a2;
+  text-align: center;
+}
+
+.a3{ 
+  grid-area: a3;
+  text-align: right;
+}
+
+/***** GRID B *****/
+
+.grid-containerB {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "a1 a2 a3";
+  grid-gap: 10px;
+
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  align-items: center;
+  padding: 15px 0;
+  margin-bottom: 80px;
+
+  font-weight: bold;
+  line-height: 1.3;
+  white-space: nowrap;
+  font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+
+}
+
+.a1B{ 
+  grid-area: a1;
+}
+
+.a2B{ 
+  grid-area: a2;
+  text-align: center;
+  font-weight: bold;
+  font-size: calc(16px + (62 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.a3B{ 
+  grid-area: a3;
+  text-align: right;
+}
+
+/********* END GRIDS *********/
+
+
+
+/***** MEDIA QUERIES *****/
+@media screen and (max-width:900px){
+
+  .contentwrapper {
+  width: 90vw;
+  margin: 0 auto;
+  }
+  .navbar{    
+  margin: 0 auto;
+  padding: 10px 0;
+  justify-content:center;
+  }
+  .navlogotxt{
+  display: inline-block;
+  vertical-align: middle;
+  }
+  .navbar img {
+  height: 80px;
+  padding: 0 10px;
+  }
+  .navlinks{
+  padding: 20px 15px;
+  }
+  .navitem a {
+  padding: 10px;
+  }
+  .astronaut-box {  
+  top: 15%;
+  left: 55%; 
+  transform: scale(.75);  
+  }
+  .scrolltext{
+  margin: 50px 0;
+  text-align: center;
+  }
+  .barcode{
+  width: 60%;
+  }
+  .bigint{
+  font-size: calc(38px + (48 - 38) * ((100vw - 300px) / (1600 - 300)));
+  }
+  .grid-container {
+  grid-template-columns:auto;
+  grid-template-rows:auto;
+  grid-template-areas: "a1" "a2" "a3";
+  font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (1600 - 300)));
+  text-align: center;
+  }
+  .a1{ 
+  grid-area: a1;
+  text-align: center;
+  }
+  .a2{ 
+  grid-area: a2;
+  text-align: center;
+  }
+  .a3{ 
+  grid-area: a3;
+  text-align: center;
+  }
+  .grid-containerB {
+  grid-template-columns:auto;
+  grid-template-rows:auto;
+  grid-template-areas: "a1" "a2" "a3";
+  font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (1600 - 300)));
+  text-align: center;
+  }
+  .a1B{ 
+  grid-area: a1;
+  text-align: center;
+  }
+  .a2B{ 
+  grid-area: a2;
+  text-align: center;
+  font-size: calc(40px + (48 - 40) * ((100vw - 300px) / (1600 - 300)));
+  }
+  .a3B{ 
+  grid-area: a3;     
+  text-align: center;
+  }
+}
+
+/***** END MEDIA QUERIES *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
