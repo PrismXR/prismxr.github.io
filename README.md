@@ -10,3 +10,6 @@ If you enable HTTPS for your GitHub Pages site but your site's HTML still refere
 To remove your site's mixed content, make sure all your assets are served over HTTPS by changing http:// to https:// in your site's HTML.
 
 https://help.github.com/en/github/working-with-github-pages/securing-your-github-pages-site-with-https#resolving-problems-with-mixed-content
+
+Custom 404 Page:
+https://help.github.com/en/github/working-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
