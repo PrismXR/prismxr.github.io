@@ -157,11 +157,20 @@ box-shadow: none !important;
 }
 */
 
+
 @font-face {
-font-family: 'Arimo';
-src: url('../css/Arimo-BoldItalic.ttf') format('truetype');
-font-weight: bold;
-font-style: italic;
+  font-family: 'madetommy';
+  src: url('../css/madetommy-medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('../css/Arimo-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
@@ -197,9 +206,12 @@ body {
   text-rendering: optimizeLegibility;
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-  color: #fff;
+  color: #ffffff; /* Text color for anything that isn't overridden by a more specific rule */
+  background-color: #ffffff;
+}
 
-  background-image: 
+.bgspace { /* Use this as a class for body on the index page. */
+   background-image: 
     linear-gradient(
     125deg, 
     rgba(0,0,0,.75) 20%, 
@@ -322,7 +334,7 @@ hr {
 
 
 
-/********* SPANS *********/
+/********* SPANS & UNIQUE RULES *********/
 
 .scrolltext {
   display: block;
@@ -529,6 +541,62 @@ hr {
 
 
 
+
+/* CSS Splash Page (Under Construction) [Temporary Until Launch] */
+.centercontainer{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centercontainer img{
+  height: 65vh;
+}
+
+.centercontainer p{
+  color: #cccccc;
+  padding: 1vh 30vw;
+  font-family: 'madetommy', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.translatecenter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.translatecenter img {
+  width: 75vw;
+  max-width: 45vw;
+}
+
+
+@media screen and (max-width:900px){
+  .centercontainer img{
+    height: 65vw;
+  }
+
+  .translatecenter img {
+    max-width: 85vw;
+  }
+  
+  .centercontainer p{
+      font-size: calc(14px + (32 - 14) * ((100vw - 300px) / (1600 - 300)));
+  }
+}
+
+.hiddenSEO{
+  display: none;
+}
+
+/***** END TEMPORARY SPLASH PAGE CSS *****/
 
 
 
