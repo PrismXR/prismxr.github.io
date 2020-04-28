@@ -14,7 +14,7 @@
   <meta property="og:title" content="PrismXR Virtual, Extended, Mixed Reality Marketing">
   <meta property="og:site_name" content="PrismXR">
   <meta property="og:url" content="www.prismxr.com/index.html">
-  <meta property="og:description" content="PrismXR specializes in experimental marketing utilizing XR, AR, VR, immersive reality, extended reality, mixed reality, and augmented reality. Contact us at info@prismxr.com">
+  <meta property="og:description" content="PrismXR specializes in experimental marketing utilizing XR, AR, VR.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.prismxr.com/img/prismlogopinkanimated.gif">
   
@@ -36,7 +36,33 @@
   ::-moz-selection{
       background:#1d1d1d;
   }
+    html, body {
+      overflow: hidden;
+}
 </style>
+  
+  <!-- Scripts -->
+  <script> //Body scroll lock for iOS
+    const $body = document.querySelector('body');
+    let scrollPosition = 0;
+
+    export default {
+    enable() {
+      scrollPosition = window.pageYOffset;
+      $body.style.overflow = 'hidden';
+      $body.style.position = 'fixed';
+      $body.style.top = `-${scrollPosition}px`;
+      $body.style.width = '100%';
+    },
+    disable() {
+      $body.style.removeProperty('overflow');
+      $body.style.removeProperty('position');
+      $body.style.removeProperty('top');
+      $body.style.removeProperty('width');
+      window.scrollTo(0, scrollPosition);
+    }
+    };
+  </script>
   
 </head>
 
