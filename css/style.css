@@ -542,26 +542,18 @@ hr {
 
 
 
+
 /* CSS Splash Page (Under Construction) [Temporary Until Launch] */
-.centercontainer{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.centercontainer img{
-  height: 65vh;
-}
-
-.centercontainer p{
+.emailtxt {
+  margin: 0 auto;
+  text-align: center;
   color: #cccccc;
-  padding: 1vh 30vw;
   font-family: 'madetommy', sans-serif;
   font-weight: normal;
   letter-spacing: 1px;
-  font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+  z-index: 3;
 }
 
 .translatecenter {
@@ -573,21 +565,20 @@ hr {
 }
 
 .translatecenter img {
-  width: 75vw;
-  max-width: 45vw;
+  width: 70vw;
+  max-width: 55vw;
 }
-
 
 @media screen and (max-width:900px){
   .centercontainer img{
-    height: 65vw;
+    height: 70vw;
   }
 
   .translatecenter img {
-    max-width: 85vw;
+    max-width: 70vw;
   }
   
-  .centercontainer p{
+  .emailtxt p{
       font-size: calc(14px + (32 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
 }
