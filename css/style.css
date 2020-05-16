@@ -565,17 +565,17 @@ hr {
 }
 
 .translatecenter img {
-  width: 70vw;
-  max-width: 55vw;
+  width: 60vw;
+  max-width: 45vw;
 }
 
 @media screen and (max-width:900px){
   .centercontainer img{
-    height: 70vw;
+    height: 60vw;
   }
 
   .translatecenter img {
-    max-width: 70vw;
+    max-width: 60vw;
   }
   
   .emailtxt p{
