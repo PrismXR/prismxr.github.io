@@ -1,0 +1,1886 @@
+body {
+    overflow: hidden;
+}
+.prism-heading {
+    top: 100px;
+}
+
+.prism-banner {
+    height: 1015px;
+}
+
+.prism-heading p {
+    width: 695px;
+}
+
+.ar-phone img {
+    height: 150;
+    width: 150;
+    margin-top: 165px;
+    margin-left: 30px;
+}
+
+.vr-headset img {
+    height: 150;
+    width: 150;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+.left {
+    margin-left: 0px;
+}
+
+.prism-sec1-sub1 {
+    font-size: 20px;
+}
+
+.prism-sec1-sub3 {
+    font-size: 20px;
+}
+
+.prism-sec1-sub2 img {
+    height: 250px;
+    width: 182px;
+}
+
+.skull-image-text img {
+    position: absolute;
+    width: 337px;
+    height: 214px;
+    left: 27px;
+    top: -55px;
+}
+
+.xr-image-text img {
+    position: absolute;
+    width: 325px;
+    height: 301px;
+    left: 238px;
+    top: -25px;
+}
+
+.prism-sec2-sub1 {
+    font-size: 18.54px;
+    line-height: 30.73px;
+    height: 263px;
+    width: 299px;
+}
+
+.prism-sec2-sub1 p {
+    width: 55%;
+    margin-top: 34%;
+    margin-bottom: 34%;
+}
+
+.prism-sec2-sub2 {
+    font-size: 18.54px;
+    line-height: 30.73px;
+    height: 263px;
+    width: 299px;
+}
+
+.prism-sec2-sub2 p {
+    width: 55%;
+    margin-top: 34%;
+    margin-bottom: 34%;
+}
+
+.prism-sec2-sub3 {
+    font-size: 18.54px;
+    line-height: 30.73px;
+    height: 263px;
+    width: 299px;
+}
+
+.prism-sec2-sub3 p {
+    width: 55%;
+    margin-top: 34%;
+    margin-bottom: 34%;
+}
+
+.prism-sec1-sub1 {
+    left: 30px;
+    margin-top: 35px;
+    line-height: 43.9px;
+}
+
+.prism-sec1-sub1 p {
+    margin-bottom: 0px;
+}
+
+.prism-sec1-sub3 {
+    left: 30px;
+    margin-top: 35px;
+    line-height: 43.9px;
+}
+
+.prism-sec1-sub3 p {
+    margin-bottom: 0px;
+}
+
+.prism-section1 {
+    height: 610px;
+}
+
+.section3 {
+    height: 965px;
+}
+
+.sec3-heading {
+    font-size: 52.68px;
+    left: -21.156px;
+    line-height: 44.88px;
+    top: 250px;
+    width: 500px;
+    color: #eaeaea;
+}
+
+.sec4-heading {
+    font-size: 52.68px;
+    right: 0;
+    top: 300px;
+    width: 700px;
+}
+
+.sec3-content1 {
+    font-size: 20px;
+    left: 270px;
+    line-height: 43.9px;
+    top: 320px;
+    color: #eaeaea;
+    width: 200px;
+}
+
+.sec3-content1 p {
+    margin-bottom: 0px;
+}
+
+.sec3-content2 img {
+    height: 300px;
+    width: 400px;
+}
+
+.prism-section1 {
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+
+.prism-sec4-sub1 h6 {
+    font-size: 18.54px;
+}
+
+.prism-sec4-sub1-text {
+    font-size: 15.12px;
+    line-height: 19.02px;
+}
+
+.prism-sec4-sub1 img {
+    height: 46px;
+    width: 46px;
+    margin-bottom: 40px;
+}
+
+.section4 {
+    height: 790px;
+}
+
+.prism-banner {
+    height: 960px;
+}
+
+.section3 {
+    height: 910px;
+}
+
+.underline img {
+    margin-top: 29%;
+}
+ 
+@media (max-width: 1280px) {
+    .ar-phone img {
+        height: 135px;
+        width: 135px;
+    }
+    .vr-headset img {
+        height: 135px;
+        width: 135px;
+        margin-left: 80px;
+    }
+    .xr-image-text img {
+        width: 300px;
+        height: 286px;
+        top: -10px;
+    }
+    .skull-image-text img {
+        position: absolute;
+        width: 322px;
+        height: 199px;
+        left: 27px;
+        top: -55px;
+    }
+    .underline img {
+        margin-top: 385px;
+    }
+    .prism-nav-mid img {
+        margin-left: 39%;
+    }
+    .prism-nav-mid span {
+        left: 44%;
+    }
+    .democratizing {
+        right: 21%;
+    }
+    .prism-xr-agency-text-big-mid-democratizing h2 {
+        font-size: 54.44px;
+    }
+    .prism-xr-agency-text-sm-democratizing img {
+        right: 44.4%;
+        height: 39px;
+        width: 120px;
+        top: 86px;
+    }
+    .arrow-image-contact img {
+        right: -1%;
+    }
+    .arrowlong-image img {
+        right: 18%;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        margin-left: 85px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 65%;
+    }
+    .scale-image img {
+        right: 603px;
+        top: 121px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .prism-nav-mid img {
+        margin-left: 38%;
+    }
+    .prism-nav-mid span {
+        left: 43.5%;
+    }
+    .prism-xr-agency-text-big-mid {
+        left: 41%;
+    }
+    .prism-xr-agency-text-big-mid h1 {
+        font-size: 62.27px;
+    }
+    .prism-xr-agency-text-sm p {
+        font-size: 9.5px;
+        line-height: 11px;
+        left: 17.5%;
+        top: 36%;
+    }
+    .prism-xr-agency-text-big-left h1 {
+        font-size: 62.27px;
+    }
+    .prism-xr-agency-text-big-right h1 {
+        font-size: 62.27px;
+    }
+    .prism-xr-agency-text img {
+        height: 126px;
+        width: 280px;
+        top: 260px;
+        left: 16%;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 65%;
+    }
+    .democratizing {
+        right: 16%;
+    }
+    .scale-image img {
+        right: 68.2%;
+    }
+    .container-style {
+        position: absolute;
+        top: 10%;
+        left: 1%;
+    }
+    .agency-bar-image img {
+        margin-top: 4%;
+    }
+    .prism-xr-agency-text-sm {
+        left: 17.5%;
+    }
+    .prism-brand h1 {
+        font-size: 77px;
+        line-height: 77px;
+        top: 208.146px;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        margin-left: 65px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 66%;
+    }
+    .arrow-image-contact p {
+        margin-left: 42%;
+    }
+    .arrow-image-contact img {
+        right: -1%;
+    }
+    .arrowlong-image img {
+        right: 18%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .prism-xr-agency-text-big-mid {
+        left: 42%;
+    }
+    .prism-things-content1-mid h3 {
+        font-size: 31.17px;
+    }
+    .pickle-image img {
+        right: 63%;
+    }
+    .underline-image img {
+        left: 17%;
+    }
+    .pickle-star-image img {
+        right: -31%;
+        top: 134%;
+        height: 47px;
+        width: 47px;
+    }
+    .pickle-vibez-image img {
+        right: -33%;
+        height: 65px;
+        top: 137%;
+        width: 45px;
+    }
+    .member1-text {
+        display: none;
+    }
+    .member2-text {
+        display: none;
+    }
+    .member3-text {
+        display: none;
+    }
+    .member4-text {
+        display: none;
+    }
+    .member5-text {
+        display: none;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 60.5%;
+        width: 50px;
+    }
+    .arrow-image-contact img {
+        right: 25.5%;
+    }
+    .arrowlong-image img {
+        right: 37%;
+    }
+    .container-style {
+        left: 6%;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .ar-phone img {
+        height: 100px;
+        width: 100px;
+        margin-top: 230px;
+        margin-left: 30px;
+    }
+    .vr-headset img {
+        height: 100px;
+        width: 100px;
+        margin-top: 230px;
+        margin-left: 30px;
+    }
+    .xr-image-text img {
+        width: 285px;
+        height: 271px;
+        top: 10px;
+        left: 180px;
+    }
+    .prism-heading span {
+        font-size: 36px;
+    }
+    .prism-heading p {
+        font-size: 14px;
+        width: 530px;
+    }
+    .prism-heading2 span {
+        font-size: 36px;
+    }
+    .prism-heading2 p {
+        font-size: 14px;
+        width: 380px;
+    }
+    .prism-heading3 span {
+        font-size: 36px;
+    }
+    .prism-heading3 p {
+        font-size: 16px;
+    }
+    .prism-section1 {
+        margin-top: 100px;
+        margin-bottom: 0px;
+        height: 465px;
+    }
+    .prism-sec1-sub2 img {
+        height: 190px;
+        width: 160px;
+    }
+    .skull-image-text img {
+        width: 235px;
+        height: 150px;
+    }
+    .prism-sec1-sub1 {
+        font-size: 16px;
+    }
+    .prism-sec2-sub1 {
+        font-size: 16px;
+        width: 75%;
+        height: 190px;
+    }
+    .prism-sec2-sub1 p {
+        width: 70%;
+    }
+    .prism-sec2-sub2 {
+        font-size: 16px;
+        width: 75%;
+        height: 190px;
+    }
+    .prism-sec2-sub2 p {
+        width: 70%;
+    }
+    .prism-sec2-sub3 {
+        font-size: 16px;
+        width: 75%;
+        height: 190px;
+    }
+    .prism-sec2-sub3 p {
+        width: 70%;
+    }
+    .prism-sec2 {
+        margin-top: 40px;
+    }
+    .section3 {
+        height: 700px;
+    }
+    .sec3-heading {
+        font-size: 43px;
+        width: 400px;
+        top: 200px;
+    }
+    .sec3-content1 {
+        font-size: 14px;
+        left: 210px;
+        top: 270px;
+    }
+    .sec3-content2 {
+        left: 62%;
+        margin-top: 33%;
+    }
+    .sec3-content2 img {
+        height: 260px;
+        width: 330px;
+    }
+    .sec4-heading {
+        width: 600px;
+    }
+    .underline img {
+        margin-top: 38%;
+        width: 245px;
+    }
+    .prism-sec4-sub1 {
+        font-size: 16.54px;
+        width: 240px;
+    }
+    .arrow-big2 img {
+        right: 265px;
+    }
+    .arrow-big img {
+        left: 265px;
+    }
+    .sec3-small {
+        font-size: 10.22px;
+        left: 25.844px;
+        top: 122px;
+        width: 100px;
+    }
+    .prism-nav-mid img {
+        margin-left: 37%;
+    }
+    .prism-nav-mid span {
+        left: 43%;
+    }
+    .prism-xr-agency-text-big-left {
+        left: -21%;
+    }
+    .prism-xr-agency-text-big-left h1 {
+        font-size: 57.27px;
+    }
+    .prism-xr-agency-text-big-mid h1 {
+        font-size: 57.27px;
+    }
+    .prism-xr-agency-text-big-right h1 {
+        font-size: 57.27px;
+    }
+    .prism-xr-agency-text img {
+        width: 269px;
+        height: 126px;
+    }
+    .prism-xr-agency-text-big-right {
+        right: -31%;
+    }
+    .prism-xr-agency-text img {
+        left: 20%;
+    }
+    .prism-xr-agency-text-big-mid {
+        left: 47%;
+    }
+    .prism-xr-agency-text-sm p {
+        left: 21.5%;
+    }
+    .container-style {
+        top: 6%;
+    }
+    .prism-xr-agency-text-big-mid-democratizing h2 {
+        font-size: 47.44px;
+    }
+    .democratizing {
+        right: 14%;
+        top: 34%;
+    }
+    .arrow-image img {
+        right: 25%;
+        top: 54%;
+        height: 103px;
+        width: 97px;
+    }
+    .hands-image img {
+        right: 31%;
+        top: 71%;
+        height: 18px;
+        width: 18px;
+    }
+    .prism-things-content1-mid h3 {
+        font-size: 28.17px;
+    }
+    .some-arrow1-image img {
+        left: 19%;
+    }
+    .some-image img {
+        left: 23%;
+    }
+    .some-cap-image img {
+        left: 26%;
+    }
+    .some-arrow2-image img {
+        right: 35%;
+    }
+    .some-arrow4-image img {
+        left: 32%;
+    }
+    .pickle-image img {
+        right: 62%;
+    }
+    .pickle-vibez-image img {
+        right: 2%;
+    }
+    .pickle-star-image img {
+        right: 1%;
+    }
+    .member img {
+        height: 45%;
+        width: 80%;
+    }
+    .member-even img {
+        height: 45%;
+        width: 80%;
+    }
+    .scale-image img {
+        right: 70.5%;
+        top: 109px;
+        height: 36px;
+        width: 85px;
+    }
+    .hands-image {
+        right: 43%;
+        top: 85%;
+    }
+    .prism-xr-agency-text-sm-democratizing p {
+        font-size: 16.94px;
+        line-height: 16.94px;
+        right: 39.7%;
+        top: 350px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 70%;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 58%;
+    }
+    .democratizing {
+        right: 15%;
+        top: 185px;
+    }
+    .prism-xr-agency-text-sm {
+        left: 21.5%;
+    }
+    .container-style {
+        left: 0%;
+    }
+    .prism-xr-agency-text-sm-democratizing img {
+        right: 46.4%;
+        height: 28px;
+        width: 83px;
+        top: 76px;
+    }
+    .democratizing img {
+        height: 108px;
+    }
+    .arrow-image p {
+        color: #eaeaea;
+        text-align: left;
+        font-size: 13.65px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        margin-left: 20px;
+    }
+    .arrow-image-contact img {
+        right: -11%;
+    }
+    .arrowlong-image img {
+        right: 11%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .prism-heading2 p {
+        width: 370px;
+    }
+    .prism-sec1-sub1 {
+        font-size: 14px;
+    }
+    .prism-sec1-sub3 {
+        font-size: 14px;
+    }
+    .sec4-heading {
+        font-size: 43px;
+    }
+    .prism-sec4-sub1 img {
+        height: 36px;
+        width: 36px;
+        margin-bottom: 20px;
+    }
+    .prism-things-content1-left {
+        margin-bottom: 20px;
+    }
+    .prism-things-content1-right {
+        margin-left: 0%;
+    }
+    .wd {
+        width: 100%;
+    }
+    .wd2 {
+        width: 100%;
+    }
+    .prism-things-content2 {
+        margin-top: 30%;
+    }
+    .some-arrow1-image img {
+        display: none;
+    }
+    .some-image img {
+        display: none;
+    }
+    .some-cap-image img {
+        display: none;
+    }
+    .some-arrow2-image img {
+        display: none;
+    }
+    .some-arrow3-image img {
+        display: none;
+    }
+    .some-arrow4-image img {
+        display: none;
+    }
+    .pickle-image img {
+        display: none;
+    }
+    .pickle-vibez-image img {
+        display: none;
+    }
+    .pickle-star-image img {
+        display: none;
+    }
+    .prism-things {
+        height: 1000px;
+    }
+    .prism-xr-agency-text-sm p {
+        left: 24.5%;
+        top: 37%;
+        font-size: 7.5px;
+    }
+    .prism-xr-agency-text-big-left {
+        left: -16%;
+    }
+    .prism-xr-agency-text-big-mid {
+        left: 44%;
+    }
+    .prism-xr-agency-text-big-left h1 {
+        font-size: 42.27px;
+        line-height: 42.03px;
+    }
+    .prism-xr-agency-text-big-mid h1 {
+        font-size: 42.27px;
+        line-height: 42.03px;
+    }
+    .prism-xr-agency-text-big-right h1 {
+        font-size: 42.27px;
+        line-height: 42.03px;
+    }
+    .prism-xr-agency-text img {
+        left: 23.5%;
+        width: 190px;
+        height: 84px;
+    }
+    .democratizing {
+        right: 13%;
+    }
+    .bar-images {
+        right: -3%;
+        bottom: 70px;
+    }
+    .prism-xr-agency-text-sm-democratizing img {
+        right: 41.4%;
+        display: none;
+    }
+    .arrow-image p {
+        right: 25%;
+    }
+    .underline-image img {
+        left: 9%;
+    }
+    .prism-team {
+        height: 600px;
+    }
+    .prism-xr-contact-text-big-mid-democratizing h2 {
+        font-size: 47.44px;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        font-size: 16.94px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 68%;
+    }
+    .prism-xr-agency-text-sm {
+        left: 24.5%;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        margin-left: 39px;
+    }
+    .arrow-image-contact img {
+        right: -13%;
+    }
+    .arrowlong-image img {
+        right: 10%;
+    }
+    .prism-brand h1 {
+        font-size: 67px;
+        line-height: 67px;
+        top: 158.146px;
+        left: 30px;
+        width: 55%;
+    }
+}
+
+@media (max-width: 890px) {
+    .prism-xr-agency-text-big-mid {
+        left: 46%;
+    }
+    .prism-xr-agency-text-big-right {
+        right: -37%;
+    }
+    .democratizing {
+        right: 10%;
+    }
+    .prism-xr-agency-text-big-mid-democratizing {
+        left: 18%;
+    }
+    .scale-image img {
+        right: 61.5%;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 51%;
+    }
+}
+
+@media (max-width: 800px) {
+    .prism-xr-agency-text-big-right {
+        right: -42%;
+    }
+    .prism-xr-agency-text-big-left {
+        left: -20%;
+    }
+    .prism-xr-agency-text-big-mid {
+        left: 47%;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 46%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .ar-phone img {
+        margin-top: 30px;
+    }
+    .vr-headset img {
+        margin-top: 100px;
+    }
+    .prism-heading {
+        top: 20%;
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
+    .circTxt2 {
+        margin-left: 15%;
+    }
+    .xr-image-text img {
+        top: 180px;
+        left: 11%;
+    }
+    .prism-banner {
+        height: 1400px;
+        width: 100%;
+    }
+    .prism-heading2 p {
+        width: 100%;
+    }
+    .prism-section1 {
+        height: 1400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .skull-image-text img {
+        left: 32%;
+    }
+    .prism-sec2-sub1 p {
+        width: 60%;
+        margin-top: 25%;
+    }
+    .prism-sec2-sub1 {
+        width: 40%;
+        height: 190px;
+    }
+    .prism-sec2-sub2 p {
+        width: 60%;
+        margin-top: 25%;
+    }
+    .prism-sec2-sub2 {
+        width: 40%;
+        height: 190px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .prism-sec2-sub3 p {
+        width: 60%;
+        margin-top: 25%;
+    }
+    .prism-sec2-sub3 {
+        width: 40%;
+        height: 190px;
+    }
+    .sec3-content1 {
+        height: auto;
+    }
+    .sec4-heading {
+        font-size: 33px;
+        width: 400px;
+        top: 200;
+    }
+    .underline img {
+        margin-top: 34%;
+        width: 185px;
+    }
+    .prism-sec4-sub1 {
+        margin-bottom: 40px;
+    }
+    .sec3-content2 {
+        left: 0%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 80%;
+    }
+    .section3 {
+        height: 1100px;
+    }
+    .section4 {
+        height: 915px;
+        margin-top: -20%;
+    }
+    .prism-sec4 {
+        top: 35%;
+        text-align: center;
+    }
+    .prism-sec1-sub1 {
+        text-align: center;
+        left: 0px;
+    }
+    .prism-sec1-sub3 {
+        text-align: center;
+        left: 0px;
+    }
+    .prism-sec1-sub2 {
+        margin-top: 130px;
+        margin-bottom: 30px;
+    }
+    .arrow-big img {
+        display: none;
+    }
+    .arrow-big2 img {
+        display: none;
+    }
+    .arrow-small img {
+        height: 60px;
+        width: 40px;
+        left: 13%;
+        margin-top: 20%;
+    }
+    .prism-xr-agency-text-big-left h1 {
+        display: none;
+    }
+    .prism-xr-agency-text-big-right h1 {
+        display: none;
+    }
+    .prism-nav-mid p {
+        font-size: 9.5px;
+    }
+    .prism-nav-mid span {
+        margin-top: 0px;
+        font-size: 19px;
+    }
+    .xr-top {
+        margin-left: 9%;
+        margin-top: 4px;
+    }
+    .prism-xr-agency-text-sm p {
+        font-size: 8.5px;
+        left: 11.5%;
+    }
+    .prism-xr-agency-text img {
+        left: 140px;
+        top: 256px;
+    }
+    .prism-xr-agency-text-big-mid {
+        left: 44%;
+    }
+    .prism-xr-agency-text-big-mid h1 {
+        font-size: 39.27px;
+    }
+    .prism-xr-agency-text-big-mid-democratizing h2 {
+        font-size: 33.44px;
+    }
+    .prism-xr-agency-text-sm-democratizing p {
+        font-size: 12.5px;
+        line-height: 15.94px;
+        left: 23%;
+        top: 44%;
+    }
+    .prism-xr-agency-text-sm-democratizing img {
+        left: 49%;
+        height: 19px;
+        width: 60px;
+        top: 43.5%;
+    }
+    .scale-image img {
+        left: 17%;
+        top: 90%;
+        height: 25px;
+        width: 58px;
+    }
+    .arrow-image img {
+        right: 34%;
+    }
+    .arrow-image p {
+        font-size: 9.5px;
+    }
+    .democratizing {
+        right: 20%;
+        top: 35%;
+    }
+    .container-style {
+        left: 17%;
+    }
+    .agency-bar-image img {
+        margin-top: 26%;
+    }
+    .prism-things-content2 {
+        margin-top: 10%;
+    }
+    .member {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .member-even {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .member img {
+        height: 230px;
+        width: 280px;
+    }
+    .member-even img {
+        height: 230px;
+        width: 280px;
+    }
+    .arrow-image img {
+        right: 33%;
+        top: 46%;
+        height: 69px;
+        width: 63px;
+    }
+    .arrow-image p {
+        top: 54%;
+        right: 34%;
+    }
+    .hands-image img {
+        right: 39%;
+        top: 56.5%;
+        height: 10px;
+        width: 10px;
+    }
+    .prism-team {
+        height: 1840px;
+    }
+    .prism-team-members {
+        margin-top: 100px;
+    }
+    .member {
+        text-align: left;
+    }
+    .member-even {
+        text-align: left;
+    }
+    .member img {
+        height: 190px;
+        width: 215px;
+    }
+    .member-even img {
+        height: 190px;
+        width: 215px;
+    }
+    .prism-team {
+        height: 1640px;
+    }
+    .prism-xr-contact-text-big-mid-democratizing h2 {
+        font-size: 33.44;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        font-size: 12.5px;
+        margin-bottom: 0px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 65.2%;
+        width: 34px;
+        top: 9px;
+    }
+    .arrow-image-contact p {
+        width: 150px;
+        font-size: 9.5px;
+        line-height: 9.68px;
+    }
+    .arrow-image-contact img {
+        height: 40px;
+        width: 90px;
+    }
+    .arrowlong-image img {
+        right: 13%;
+        top: 85px;
+        height: 12px;
+        width: 58px;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 45%;
+    }
+    .prism-xr-agency-text-sm {
+        left: 20%;
+    }
+    .prism-xr-agency-text-big-mid-democratizing {
+        left: 21%;
+        top: 255px;
+    }
+    .prism-nav-mid img {
+        right: 42%;
+    }
+    .xr-year {
+        left: 42%;
+    }
+    .prism-xr-agency-bottom-left2 p {
+        margin-left: 50px;
+    }
+    .democratizing {
+        right: 17%;
+        top: 41%;
+    }
+    .democratizing img {
+        height: 80px;
+    }
+    .hands-image {
+        right: 36%;
+    }
+    .prism-xr-contact-text-big-mid-democratizing {
+        margin-top: 180px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .vr-headset{
+        text-align: center;
+    }
+    .sec3-content2 {
+        margin-top: 110%;
+    }
+    .sec3-content2 img {
+        height: 160px;
+        width: 230px;
+    }
+    .section3 {
+        height: 930px;
+    }
+    .prism-heading p {
+        width: 100%;
+    }
+    .prism-heading2 {
+        width: 100%;
+        text-align: center;
+    }
+    .prism-banner {
+        height: 1520px;
+    }
+    .prism-sec2-sub1 {
+        width: 50%;
+    }
+    .prism-sec2-sub2 {
+        width: 50%;
+    }
+    .prism-sec2-sub3 {
+        width: 50%;
+    }
+    .prism-ar-vr {
+        width: 100%;
+    }
+    .arrow-small img {
+        left: 17%;
+        margin-top: 26%;
+    }
+    .circTxt2 {
+        margin-left: 35%;
+    }
+    .prism-heading {
+        margin-left: 30%;
+    }
+    .xr-image-text img {
+        left: 17%;
+    }
+    .skull-image-text img {
+        left: 25%;
+    }
+    .underline img {
+        margin-top: 44%;
+    }
+    .prism-nav-mid img {
+        margin-left: 32%;
+    }
+    .prism-xr-agency-bottom-left {
+        position: absolute;
+    }
+    .prism-xr-agency-bottom-right {
+        margin-left: 44%;
+    }
+    .prism-xr-agency-text-sm-democratizing p {
+        left: 18%;
+    }
+    .prism-xr-agency-bottom-left2 p {
+        margin-left: 0px;
+    }
+    .hands-image img {
+        right: 41%;
+    }
+    .prism-xr-agency-text-big-mid-democratizing h2 {
+        font-size: 28.44px;
+    }
+    .prism-xr-agency-text-sm-democratizing p {
+        font-size: 9.5px;
+        text-align: left;
+        margin-left: 90px;
+    }
+    .agency-bar-image img {
+        margin-top: 150px;
+    }
+    .prism-things-content1-mid h3 {
+        line-height: 33px;
+        width: 65%;
+    }
+    .prism-xr-contact-text-big-mid-democratizing h2 {
+        font-size: 28.44px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 60%;
+    }
+    .arrow-image-contact img {
+        right: -4.5%;
+    }
+    .arrowlong-image img {
+        right: 22%;
+        top: 51.5%;
+    }
+    .arrow-image-contact img {
+        top: 59px;
+    }
+    .prism-nav-mid img {
+        right: 40%;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 93.5%;
+    }
+    .prism-xr-agency-text img {
+        top: 260px;
+    }
+    .arrow-image-contact p {
+        right: 45.5%;
+        top: 275px;
+        width: 163px;
+    }
+    .arrowlong-image img {
+        top: 84px;
+    }
+    .prism-nav-mid img {
+        right: 43%;
+    }
+    .prism-xr-agency-text img {
+        left: 10%;
+        top: 260px;
+    }
+    .prism-xr-agency-text-sm {
+        left: 12%;
+        top: 230px;
+    }
+    span.xr-top {
+        left: 43%;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        top: 218px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        top: 8px;
+    }
+    .prism-nav-mid {
+        width: 220px;
+    }
+    .prism-xr-agency-text-democratizing {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .democratizing {
+        right: 15%;
+        top: 187px;
+    }
+    .democratizing img {
+        height: 60px;
+    }
+    .scale-image img {
+        left: 28%;
+        top: 90%;
+        height: 21px;
+        width: 48px;
+    }
+    .prism-xr-contact-text-big-mid-democratizing {
+        width: 59%;
+    }
+    .prism-brand h1 {
+        font-size: 57px;
+        line-height: 57px;
+        top: 158.146px;
+        left: 102px;
+    }
+}
+
+@media (max-width: 500px) {
+    .sec3-content2 {
+        margin-top: 125%;
+    }
+    .underline img {
+        margin-top: 53%;
+    }
+    .prism-sec2-sub1 {
+        width: 60%;
+    }
+    .prism-sec2-sub2 {
+        width: 60%;
+    }
+    .prism-sec2-sub3 {
+        width: 60%;
+    }
+    .section4 {
+        height: 1015px;
+        margin-top: -25%;
+    }
+    .arrow-small img {
+        left: 20%;
+        margin-top: 31%;
+    }
+    .prism-heading {
+        margin-left: 24%;
+        width: 72%;
+    }
+    .xr-image-text img {
+        left: 10%;
+    }
+    .skull-image-text img {
+        left: 21%;
+    }
+    .underline img {
+        margin-top: 51%;
+    }
+    .prism-nav-mid img {
+        margin-left: 29%;
+    }
+    .prism-xr-agency-text-sm p {
+        left: 6.5%;
+    }
+    .prism-xr-agency-text img {
+        left: 4.5%;
+    }
+    .prism-xr-agency-text-sm-democratizing p {
+        font-size: 8.5px;
+    }
+    .prism-xr-agency-text-big-mid-democratizing h2 {
+        font-size: 24.44px;
+    }
+    .prism-things-content1-mid h3 {
+        font-size: 24.44px;
+    }
+    .prism-things-content1-left p {
+        font-size: 8.5px;
+    }
+    .prism-things-content1-right p {
+        font-size: 8.5px;
+    }
+    .arrow-image img {
+        right: 34%;
+        top: 48%;
+        height: 50px;
+        width: 46px;
+    }
+    .hands-image img {
+        right: 41%;
+        top: 56.5%;
+        height: 10px;
+        width: 10px;
+    }
+    .agency-bar-image img {
+        margin-top: 120px;
+        left: 10px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 55%;
+    }
+    .arrow-image-contact p {
+        font-size: 8.5px;
+        line-height: 15.94px;
+    }
+    .arrowlong-image img {
+        right: 43%;
+        top: 48.5%;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 92.5%;
+    }
+    .prism-xr-agency-text-sm {
+        left: 7%;
+    }
+    .prism-xr-agency-text-big-mid-democratizing {
+        left: 19%;
+        top: 260px;
+    }
+    .container-style {
+        left: 11%;
+    }
+    .underline-image img {
+        display: none;
+    }
+    .wd p {
+        width: 385px;
+    }
+    .arrow-image-contact p {
+        width: 176px;
+    }
+    .arrowlong-image img {
+        top: 84px;
+        right: 26%;
+        width: 43px;
+    }
+    span.xr-year {
+        left: 39%;
+    }
+    .prism-brand h1 {
+        font-size: 47px;
+        line-height: 47px;
+        top: 108.146px;
+        left: 47px;
+    }
+    .arrow-image-contact p {
+        margin-left: 6%;
+    }
+}
+
+@media (max-width: 460px) {
+    .arrow-small img {
+        left: 23%;
+        margin-top: 34%;
+    }
+    .sec3-content2 {
+        margin-top: 140%;
+    }
+    .prism-sec2-sub1 {
+        width: 60%;
+    }
+    .prism-sec2-sub2 {
+        width: 60%;
+    }
+    .prism-sec2-sub3 {
+        width: 60%;
+    }
+    .underline img {
+        margin-top: 56%;
+    }
+    .skull-image-text img {
+        left: 19%;
+    }
+    .vr-headset img {
+        margin-top: 130px;
+    }
+    .prism-banner {
+        height: 1620px;
+    }
+    .prism-things-content1-mid h3 {
+        line-height: 25px;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 91.5%;
+    }
+}
+
+@media (max-width: 415px) {
+    .sec3-content2 {
+        margin-top: 160%;
+    }
+    .prism-sec2-sub1 {
+        width: 65%;
+    }
+    .prism-sec2-sub2 {
+        width: 65%;
+    }
+    .prism-sec2-sub3 {
+        width: 65%;
+    }
+    .underline img {
+        margin-top: 63%;
+    }
+    .prism-banner {
+        height: 1720px;
+    }
+    .section4 {
+        height: 1000px;
+        margin-top: -20%;
+    }
+    .sec3-content1 {
+        left: 28%;
+        margin-top: 12%;
+    }
+    .sec3-heading {
+        font-size: 38px;
+        top: 220px;
+    }
+    .arrow-small img {
+        margin-top: 39%;
+    }
+    .circTxt2 {
+        margin-left: 42%;
+    }
+    .skull-image-text img {
+        left: 16%;
+    }
+    .prism-nav-mid img {
+        width: 106px;
+        height: 47px;
+        margin-top: -6px;
+        margin-left: 25%;
+    }
+    .prism-nav-mid span {
+        margin-top: 4px;
+        font-size: 15px;
+    }
+    .prism-nav-mid p {
+        font-size: 8.5px;
+        left: 48%;
+    }
+    .prism-xr-agency-text-sm p {
+        left: 9.5%;
+    }
+    .prism-xr-agency-text img {
+        left: 7.5%;
+        width: 130px;
+        height: 65px;
+    }
+    .prism-xr-agency-text-big-mid {
+        width: 300px;
+    }
+    .prism-xr-agency-text-big-mid h1 {
+        font-size: 30.27px;
+        line-height: 30px;
+    }
+    .prism-xr-agency-text-big-mid-democratizing h2 {
+        font-size: 21.44px;
+    }
+    .hands-image img {
+        right: 43%;
+    }
+    .prism-things-content1-left p {
+        width: 340px;
+    }
+    .prism-things-content1-right p {
+        width: 340px;
+    }
+    .prism-team-members {
+        left: 20%;
+        position: absolute;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 90.5%;
+    }
+    .prism-xr-contact-text-big-mid-democratizing h2 {
+        font-size: 21.44px;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        right: 59.5%;
+        font-size: 8.5px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 63%;
+        width: 24px;
+    }
+    .arrow-image-contact p {
+        right: 42.5%;
+        width: 139px;
+    }
+    .arrow-image-contact img {
+        right: 3.5%;
+        top: 64%;
+        height: 30px;
+        width: 80px;
+    }
+    .arrowlong-image img {
+        right: 38%;
+        top: 78.5%;
+        height: 15px;
+        width: 57px;
+    }
+    .xr-year h6 {
+        font-size: 18.5px;
+    }
+    .prism-nav-mid img {
+        right: 49%;
+    }
+    .prism-nav-mid span {
+        left: 38%;
+    }
+    span.xr-top {
+        left: 40%;
+    }
+    .prism-xr-agency-text-sm {
+        left: 9.5%;
+    }
+    .democratizing {
+        right: 11%;
+        top: 186px;
+    }
+    .democratizing img {
+        height: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .prism-banner {
+        height: 1950px;
+    }
+    .sec3-content2 {
+        margin-top: 175%;
+    }
+    .prism-sec2-sub1 {
+        width: 75%;
+    }
+    .prism-sec2-sub2 {
+        width: 75%;
+    }
+    .prism-sec2-sub3 {
+        width: 75%;
+    }
+    .prism-sec2-sub1 p {
+        margin-top: 30%;
+    }
+    .prism-sec2-sub2 p {
+        margin-top: 30%;
+    }
+    .prism-sec2-sub3 p {
+        margin-top: 30%;
+    }
+    .section4 {
+        height: 1100px;
+        margin-top: -25%;
+    }
+    .underline img {
+        margin-top: 69%;
+    }
+    .arrow-small img {
+        margin-top: 47%;
+    }
+    .circTxt2 {
+        margin-left: 50%;
+    }
+    .prism-heading {
+        margin-left: 28%;
+        width: 65%;
+        margin-bottom: 23%;
+    }
+    .xr-image-text img {
+        top: 25%;
+    }
+    .skull-image-text img {
+        left: 12%;
+    }
+    .prism-nav-mid img {
+        margin-left: 21%;
+    }
+    .prism-nav-mid span {
+        left: 35%;
+    }
+    .prism-xr-agency-text-sm-democratizing p {
+        width: 75%;
+    }
+    .prism-xr-agency-text-big-mid-democratizing h2 {
+        font-size: 19.44px;
+    }
+    .prism-things-content1-mid h3 {
+        font-size: 19.44px;
+        line-height: 19px;
+        width: 85%;
+    }
+    .prism-things-content1-left p {
+        width: 280px;
+    }
+    .prism-things-content1-left h5 {
+        font-size: 14.02px;
+    }
+    .agency-bar-image img {
+        margin-top: 89px;
+        left: 5px;
+    }
+    .prism-things-content1-right h5 {
+        font-size: 14.02px;
+    }
+    .prism-things-content1-right p {
+        width: 280px;
+    }
+    .bar-images {
+        right: -5%;
+    }
+    .arrow-image img {
+        right: 19%;
+    }
+    .arrow-image p {
+        right: 19%;
+    }
+    .hands-image img {
+        right: 30%;
+    }
+    .prism-team-members {
+        left: 17%;
+    }
+    .prism-xr-contact-text-big-mid-democratizing h2 {
+        font-size: 19.44px;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        right: 58.5%;
+        font-size: 8.5px;
+    }
+    .prism-xr-contact-text-sm-democratizing img {
+        right: 54%;
+        top: 10px;
+        height: 8px;
+        width: 21px;
+    }
+    .arrow-image-contact p {
+        right: 37.5%;
+        top: 265px;
+        width: 145px;
+    }
+    .arrow-image-contact img {
+        right: -5.5%;
+        top: 80px;
+    }
+    .arrowlong-image img {
+        top: 96px;
+        right: 34%;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 89.5%;
+    }
+    .prism-xr-agency-bottom-right {
+        margin-left: 42%;
+    }
+    .prism-xr-agency-text-sm-democratizing {
+        right: 30.7%;
+    }
+    .prism-xr-agency-text-sm-democratizing p {
+        width: 99%;
+    }
+    .container-style {
+        left: 6%;
+    }
+    .prism-xr-contact-text-sm-democratizing p {
+        top: 215px;
+    }
+    .scale-image img {
+        left: 40.5%;
+    }
+    .prism-things-content2 {
+        margin-top: 17%;
+    }
+    .prism-brand h1 {
+        top: 29%;
+    }
+}
+
+@media (max-width: 320px) {
+    .prism-banner {
+        height: 2120px;
+    }
+    .sec3-content2 {
+        margin-top: 215%;
+    }
+    .prism-sec2-sub1 {
+        width: 90%;
+    }
+    .prism-sec2-sub2 {
+        width: 90%;
+    }
+    .prism-sec2-sub3 {
+        width: 90%;
+    }
+    .prism-sec2-sub1 p {
+        margin-top: 33%;
+    }
+    .prism-sec2-sub2 p {
+        margin-top: 33%;
+    }
+    .prism-sec2-sub3 p {
+        margin-top: 33%;
+    }
+    .section4 {
+        height: 1200px;
+        margin-top: -28%;
+    }
+    .underline img {
+        margin-top: 80%;
+    }
+    .arrow-small img {
+        margin-top: 57%;
+        left: 28%;
+    }
+    .prism-heading {
+        margin-left: 28%;
+        width: 74%;
+        margin-bottom: 36%;
+    }
+    .skull-image-text img {
+        left: 4%;
+    }
+    .prism-nav-mid img {
+        margin-left: 17%;
+    }
+    .prism-xr-agency-text-sm p {
+        left: 2%;
+    }
+    .prism-xr-agency-text img {
+        left: 0%;
+    }
+    .prism-xr-agency-text-big-mid {
+        left: 40%;
+    }
+    .prism-xr-agency-text-sm-democratizing p {
+        width: 65%;
+    }
+    .prism-xr-agency-text-big-mid-democratizing {
+        left: 10%;
+    }
+    .hands-image img {
+        right: 32%;
+    }
+    .prism-xr-agency-text-sm-democratizing p {
+        left: 10%;
+    }
+    .prism-things-content1-left p {
+        width: 250px;
+    }
+    .prism-things-content1-right p {
+        width: 250px;
+    }
+    .arrow-image-contact img {
+        right: -14.5%;
+    }
+    .agency-bar-image img {
+        margin-top: 66px;
+    }
+    .prism-team-members {
+        left: 11%;
+        position: absolute;
+    }
+    .arrowlong-image img {
+        right: 28%;
+    }
+    .arrowlong-image img {
+        right: 47%;
+    }
+    .prism-xr-contact-bottom-right-bar img {
+        left: 87.5%;
+    }
+    .nav-item-x {
+        right: 20px;
+    }
+    .prism-nav-mid img {
+        right: 44% !important;
+    }
+    .prism-xr-agency-text-sm {
+        left: 2.5%;
+    }
+    .democratizing {
+        right: 6%;
+    }
+    .scale-image img {
+        left: 47.5%;
+        top: 72%;
+    }
+    .prism-xr-contact-text-big-mid-democratizing h2 {
+        font-size: 18.44px;
+    }
+}
