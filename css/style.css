@@ -40,6 +40,7 @@ body {
     margin-left: 10px;
 }
 
+
 /*  Prism banner */
 
 .prism-banner {
@@ -59,7 +60,9 @@ body {
     margin-right: 10px;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
     width: 28px;
     height: 4px;
     background-color: rgb(255, 255, 255);
@@ -191,6 +194,7 @@ body {
     margin-left: 200px;
 }
 
+
 /* page 4 Section1 */
 
 .prism-section1 {
@@ -275,6 +279,7 @@ body {
     float: left;
 }
 
+
 /*page4 section 3 */
 
 .section3 {
@@ -283,8 +288,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1890px;
+    height: 100vh;
     z-index: 1;
+}
+
+.h-section3 {
+    height: 920px;
+}
+
+.hmt-section4 {
+    margin-top: -12%;
 }
 
 .pos {
@@ -324,6 +337,7 @@ body {
     z-index: 60;
 }
 
+
 /*page4 section 4 */
 
 .section4 {
@@ -332,8 +346,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1215px;
-    margin-top: -13%;
+    height: 100vh;
 }
 
 .pos2 {
@@ -354,6 +367,7 @@ body {
     height: 172px;
     z-index: 15;
 }
+
 
 /* page4 section 4 */
 
@@ -408,12 +422,4 @@ body {
     width: 500px;
     color: #eaeaea;
     position: absolute;
-}
-
-div.circTxt {
-    display: inline-block;
-    margin-bottom: 48px;
-    color: #000;
-    font-family: "MADEOuterSansOutlineAlt";
-    font-size: 21.83px;
 }
