@@ -41,6 +41,17 @@ body {
 }
 
 
+/*@Mike's CSS*/
+
+.contactcontain {
+  text-align: center;
+}
+
+.contactiframe {
+  width: 95%;
+  height: 1070px
+}
+
 /*  Prism banner */
 
 .prism-banner {
