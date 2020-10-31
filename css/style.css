@@ -24,12 +24,12 @@
 }
 
 html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 body {
     background-color: #eaeaea;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     margin: 0;
     padding: 0;
 }
@@ -40,17 +40,6 @@ body {
     margin-left: 10px;
 }
 
-
-/*@Mike's CSS*/
-
-.contactcontain {
-  text-align: center;
-}
-
-.contactiframe {
-  width: 95%;
-  height: auto
-}
 
 /*  Prism banner */
 
@@ -433,4 +422,8 @@ body {
     width: 500px;
     color: #eaeaea;
     position: absolute;
+}
+
+.wd-show-text{
+    font-size: 9px;
 }
