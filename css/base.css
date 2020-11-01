@@ -8,6 +8,7 @@ prism-xr-agency */
 .nudgeimg{
     left: 19%;
     position: fixed;
+	z-index: 0;
 }
 
 .nudgeimg2{
@@ -68,6 +69,7 @@ prism-xr-agency */
 
 .xr-top {
     margin-left: 12px;
+	z-index:999;
 }
 
 .prism-nav-mid p {
