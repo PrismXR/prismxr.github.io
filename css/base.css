@@ -1,7 +1,20 @@
 /*  Prism section 1
 
-
 prism-xr-agency */
+
+
+
+
+.nudgeimg{
+    left: 19%;
+    position: fixed;
+}
+
+.nudgeimg2{
+  left:650%;
+    position: relative;
+}
+
 
 .prism-xr-agency {
     left: 0px;
@@ -209,7 +222,7 @@ prism-democratizing */
 }
 
 .democratizing {
-    position: absolute;
+    position: relative;
     right: 245px;
     top: 185px;
     z-index: 1;
@@ -849,23 +862,26 @@ prism-team */
 .member-details1 {
     display: flex;
     margin-top: 25px;
+    font-size: 11px;
 }
 
 .member-details1-sub2 p {
     margin-top: 25px;
-    font-size: 8.24px;
+    font-size: 11px;
     font-family: 'menlo';
     width: 260px;
 }
 
 .member-details1-sub4 p {
     width: 285px;
-    font-size: 8.24px;
+    font-size: 11px;
     font-family: 'menlo';
 }
 
 .member-details2 {
     display: flex;
+      font-size: 11px;
+
 }
 
 .pd-left-zero {
@@ -877,20 +893,20 @@ prism-team */
 }
 
 .member-details2-sub1 p {
-    font-size: 8.24px;
+    font-size: 11px;
     font-family: 'menlo';
     width: 245px;
 }
 
 .member-details2-sub3 p {
-    font-size: 8.24px;
+    font-size: 11px;
     font-family: 'menlo';
     margin-top: 30px;
     width: 240px;
 }
 
 .member-details2-sub5 p {
-    font-size: 8.24px;
+    font-size: 11px;
     font-family: 'menlo';
     width: 243px;
 }
