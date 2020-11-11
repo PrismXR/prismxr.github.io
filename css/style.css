@@ -34,10 +34,14 @@ body {
     padding: 0;
 }
 
+/*body {
+    max-width: 1366px;
+    margin: 0 auto;
+}*/
+
 .prism-nav img {
     height: 20px;
     width: 20px;
-    margin-left: 10px;
 }
 
 
@@ -198,8 +202,6 @@ body {
 /* page 4 Section1 */
 
 .prism-section1 {
-    height: 1385px;
-    margin-top: 300px;
     background-color: #eaeaea;
 }
 
@@ -297,7 +299,7 @@ body {
 }
 
 .hmt-section4 {
-    margin-top: -12%;
+    margin-top: -13%;
 }
 
 .pos {
@@ -416,7 +418,7 @@ body {
 .sec3-small {
     font-size: 11.22px;
     font-family: "menlo";
-    left: 48.844px;
+    left: 90px;
     line-height: 17.07px;
     top: 158px;
     width: 500px;
@@ -424,6 +426,63 @@ body {
     position: absolute;
 }
 
-.wd-show-text{
+.wd-show-text {
     font-size: 9px;
+}
+
+.pkl-img {
+    background: url(../assets/images/Circle-green.png) no-repeat top;
+    background-position: left;
+    background-size: 100%;
+    padding: 11px 12px 17px 23px;
+    margin-left: -18px;
+}
+
+.underline-img {
+    background: url(../assets/images/Underline.png) no-repeat bottom;
+    background-position: bottom;
+    background-size: 90%;
+    padding: 0px 0px 3px 0px;
+}
+
+.uline-img {
+    background: url(../assets/Underline.png) no-repeat top;
+    background-position: bottom;
+    background-size: 94%;
+    padding: 10px 0px 15px 0px;
+}
+
+
+/*.xr-year{
+    background: url(../assets/images/Circle.png) no-repeat top;
+    background-size: 100%;
+    padding: 21px 45px 1px 45px;
+    margin-right: -48px;
+    margin-top: -20px;
+}*/
+
+.arrow-bg-left {
+    background: url("../assets/Arrow 1.png") no-repeat top;
+    background-position: 66%;
+    background-size: 8%;
+    padding-top: 25px;
+    margin-top: -25px;
+    padding-bottom: 5px;
+}
+
+.arrow-bg-right {
+    background: url("../assets/Arrow 2.png") no-repeat top;
+    background-position: 34%;
+    background-size: 8%;
+    padding-top: 25px;
+    margin-top: -25px;
+    padding-bottom: 5px;
+}
+
+.arrow3 {
+    background: url("../assets/Arrow 3.png") no-repeat top;
+    background-position: 148px;
+    background-size: 9%;
+    padding-top: 118px;
+    margin-top: -124px;
 }

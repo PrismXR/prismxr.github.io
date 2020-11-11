@@ -1,21 +1,7 @@
 /*  Prism section 1
 
+
 prism-xr-agency */
-
-
-
-
-.nudgeimg{
-    left: 19%;
-    position: fixed;
-	z-index: 0;
-}
-
-.nudgeimg2{
-  left:650%;
-    position: relative;
-}
-
 
 .prism-xr-agency {
     left: 0px;
@@ -51,7 +37,7 @@ prism-xr-agency */
     width: 145px;
     height: 65px;
     position: absolute;
-    right: 48%;
+    right: 215px;
     margin-top: -19px;
 }
 
@@ -69,7 +55,6 @@ prism-xr-agency */
 
 .xr-top {
     margin-left: 12px;
-	z-index:999;
 }
 
 .prism-nav-mid p {
@@ -89,8 +74,8 @@ prism-xr-agency */
 
 .prism-xr-agency-text-sm {
     position: absolute;
-    left: 264px;
-    top: 212px;
+    left: 15px;
+    top: -32px;
 }
 
 .prism-xr-agency-text-sm p {
@@ -99,28 +84,28 @@ prism-xr-agency */
     font-family: "menlo";
     color: rgb(0, 0, 0);
     margin-bottom: 0px;
+    text-transform: lowercase;
 }
 
 .prism-xr-agency-text img {
     width: 290px;
     height: 137px;
-    left: 247px;
-    position: absolute;
-    top: 250px;
 }
 
 .prism-xr-agency-text-big-mid h1 {
     font-size: 72.27px;
     line-height: 60.03px;
+    width: 452px;
     font-family: "MADEOuterSansOutlineAltBlack";
 }
 
 .prism-xr-agency-text-big-mid {
     position: absolute;
     top: 257px;
-    left: 535px;
+    left: 253px;
     font-size: 195px;
-    width: 450px;
+    width: 1000px;
+    display: flex;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     line-height: 0.831;
@@ -197,6 +182,7 @@ prism-democratizing */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    float: left;
     height: 100vh;
 }
 
@@ -224,8 +210,8 @@ prism-democratizing */
 }
 
 .democratizing {
-    position: relative;
-    right: 245px;
+    position: absolute;
+    left: 917px;
     top: 185px;
     z-index: 1;
 }
@@ -245,6 +231,7 @@ prism-democratizing */
     font-family: "menlo";
     color: #eaeaea;
     margin-bottom: 0px;
+    text-transform: lowercase;
 }
 
 .prism-xr-agency-text-sm-democratizing {
@@ -262,7 +249,7 @@ prism-democratizing */
 
 .prism-xr-agency-text-sm-democratizing img {
     position: absolute;
-    right: 47.4%;
+    left: 356px;
     height: 47px;
     width: 126px;
     top: 38px;
@@ -271,7 +258,7 @@ prism-democratizing */
 
 .scale-image img {
     position: absolute;
-    right: 660px;
+    left: 146px;
     top: 73px;
     height: 50px;
     width: 107px;
@@ -279,7 +266,7 @@ prism-democratizing */
 
 .arrow-image {
     position: absolute;
-    right: 11%;
+    left: 550px;
 }
 
 .arrow-image img {
@@ -390,6 +377,7 @@ prism-things */
     background-color: #eaeaea;
     background-repeat: no-repeat;
     background-size: cover;
+    float: left;
     width: 100%;
     height: 100vh;
 }
@@ -649,6 +637,7 @@ prism-team */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    float: left;
     height: 100vh;
 }
 
@@ -703,8 +692,8 @@ prism-team */
 }
 
 .member img {
-    height: 125px;
-    width: 150px;
+    height: 130px;
+    width: 145px;
 }
 
 .member-even {
@@ -715,8 +704,8 @@ prism-team */
 }
 
 .member-even img {
-    height: 125px;
-    width: 150px;
+    height: 130px;
+    width: 135px;
 }
 
 .member1-text {
@@ -864,26 +853,23 @@ prism-team */
 .member-details1 {
     display: flex;
     margin-top: 25px;
-    font-size: 11px;
 }
 
 .member-details1-sub2 p {
     margin-top: 25px;
-    font-size: 11px;
+    font-size: 8.24px;
     font-family: 'menlo';
     width: 260px;
 }
 
 .member-details1-sub4 p {
     width: 285px;
-    font-size: 11px;
+    font-size: 8.24px;
     font-family: 'menlo';
 }
 
 .member-details2 {
     display: flex;
-      font-size: 11px;
-
 }
 
 .pd-left-zero {
@@ -895,20 +881,20 @@ prism-team */
 }
 
 .member-details2-sub1 p {
-    font-size: 11px;
+    font-size: 8.24px;
     font-family: 'menlo';
     width: 245px;
 }
 
 .member-details2-sub3 p {
-    font-size: 11px;
+    font-size: 8.24px;
     font-family: 'menlo';
     margin-top: 30px;
     width: 240px;
 }
 
 .member-details2-sub5 p {
-    font-size: 11px;
+    font-size: 8.24px;
     font-family: 'menlo';
     width: 243px;
 }
@@ -931,6 +917,7 @@ prism-team */
     background-image: url("../assets/images/PRISM\ -\ Page\ 6.png");
     left: 0px;
     background-repeat: no-repeat;
+    float: left;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -976,13 +963,17 @@ prism-contact-us */
     font-family: "MADEOuterSansOutlineAltBlack";
 }
 
+.prism-xr-contact-text-sm-democratizing {
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 25px;
+}
+
 .prism-xr-contact-text-sm-democratizing p {
     font-size: 19.99px;
     line-height: 12.68px;
-    margin-left: 104px;
     font-family: "menlo";
     width: 200px;
-    text-align: left;
     color: #eaeaea;
 }
 
@@ -1013,7 +1004,7 @@ prism-contact-us */
     position: absolute;
     top: 12px;
     height: 12px;
-    right: 64%;
+    left: 90px;
     width: 58px;
 }
 
@@ -1025,15 +1016,15 @@ prism-contact-us */
     height: 55px;
     width: 110px;
     position: absolute;
-    top: 60px;
-    right: 6%;
+    top: 65px;
+    left: 542px;
 }
 
 .arrowlong-image img {
     position: absolute;
     height: 13px;
     width: 70px;
-    right: 23%;
+    left: 458px;
     top: 95px;
 }
 
