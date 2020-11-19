@@ -34,6 +34,7 @@ body {
     padding: 0;
 }
 
+
 /*body {
     max-width: 1366px;
     margin: 0 auto;
@@ -485,4 +486,11 @@ body {
     background-size: 9%;
     padding-top: 118px;
     margin-top: -124px;
+}
+
+.arrow-long-bg {
+    background: url(../assets/images/Arrowlong.png) no-repeat;
+    background-position: left;
+    background-size: 75%;
+    padding: 5px 8px 12px 100px;
 }

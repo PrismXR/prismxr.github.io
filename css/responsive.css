@@ -277,6 +277,18 @@ body {
         font-size: 16.54px;
         line-height: 28.73px;
     }
+    .arrow-image-contact img {
+        margin-left: -43px;
+    }
+    .arrow-image-contact p {
+        margin-left: 256px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .arrow-image-contact img {
+        margin-left: -36px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -365,6 +377,9 @@ body {
         width: 279px;
         font-size: 16.54px;
         line-height: 28.73px;
+    }
+    .arrow-image-contact p {
+        margin-left: 235px;
     }
     .prism-sec2-sub3 {
         height: 248px;
@@ -679,14 +694,6 @@ body {
     .pickle-star-image img {
         right: 1%;
     }
-    /*.member img {
-        height: 45%;
-        width: 80%;
-    }
-    .member-even img {
-        height: 45%;
-        width: 80%;
-    }*/
     .scale-image img {
         top: 73px;
         height: 36px;
@@ -774,13 +781,9 @@ body {
         width: auto;
     }
     .arrow-image-contact p {
-        margin-left: 193px;
-    }
-    .arrow-image-contact img {
-        left: 450px;
-    }
-    .arrowlong-image img {
-        left: 374px;
+        margin-left: 204px;
+        font-size: 10.22px;
+        line-height: 11.68px;
     }
 }
 
@@ -951,7 +954,7 @@ body {
 }
 
 @media (max-width: 890px) {
-    .member4-text img{
+    .member4-text img {
         left: 40px;
     }
     .container-style {
@@ -1022,7 +1025,6 @@ body {
 }
 
 @media (max-width: 800px) {
-    
     .prism-xr-agency-text-big-right {
         right: -42%;
     }
@@ -1057,7 +1059,7 @@ body {
 @media all and (max-width: 767px) {
     .sec3-small {
         left: 60px;
-     }
+    }
     .arrow-bg-left {
         background: none;
     }
@@ -1309,8 +1311,10 @@ body {
         line-height: 9.68px;
     }
     .arrow-image-contact img {
-        height: 40px;
-        width: 90px;
+        height: 30px;
+        width: 80px;
+        margin-top: 9px;
+        margin-left: 27px;
     }
     .prism-xr-contact-bottom-right-bar img {
         left: 45%;
@@ -1438,15 +1442,6 @@ body {
     .arrow-image-contact p {
         margin-left: 148px;
     }
-    .arrow-image-contact img {
-        left: 330px;
-    }
-    .arrowlong-image img {
-        left: 264px;
-        top: 85px;
-        height: 12px;
-        width: 58px;
-    }
 }
 
 @media all and (max-width: 730px) {
@@ -1482,14 +1477,12 @@ body {
     .arrow-image-contact img {
         height: 32px;
         width: 80px;
-        top: 68px;
-        left: 311px;
     }
-    .arrowlong-image img {
-        height: 9px;
-        width: 41px;
-        top: 85px;
-        left: 265px;
+    .arrow-image-contact p {
+        margin-left: 128px;
+    }
+    .arrow-long-bg {
+        background-size: 70%;
     }
     .prism-team {
         height: 2432px;
@@ -1625,9 +1618,6 @@ body {
     .prism-xr-contact-text-sm-democratizing img {
         left: 80px;
     }
-    .arrow-image-contact img {
-        top: 63px;
-    }
     .prism-nav-mid img {
         right: 40%;
     }
@@ -1642,8 +1632,8 @@ body {
         top: 275px;
         width: 163px;
     }
-    .arrowlong-image img {
-        top: 84px;
+    .arrow-long-bg {
+        background-size: 68%;
     }
     .prism-nav-mid img {
         right: 41%;
@@ -1767,6 +1757,9 @@ body {
     .sec4-heading {
         top: 165px;
     }
+    .arrow-image-contact img {
+        margin-left: -18px;
+    }
 }
 
 @media (max-width: 548px) {
@@ -1861,9 +1854,6 @@ body {
         font-size: 8.5px;
         line-height: 15.94px;
     }
-    .arrowlong-image img {
-        top: 48.5%;
-    }
     .prism-xr-contact-bottom-right-bar img {
         left: 92.5%;
     }
@@ -1878,7 +1868,11 @@ body {
         left: 11%;
     }
     .arrow-image-contact p {
-        width: 176px;
+        width: 150px;
+    }
+    .arrow-image-contact img {
+        margin-left: -27px;
+        margin-top: 23px;
     }
     span.xr-year {
         left: 39%;
@@ -1908,15 +1902,6 @@ body {
     }
     .prism-xr-contact-text-big-mid-democratizing h2 {
         font-size: 22.44px;
-    }
-    .arrow-image-contact img {
-        top: 69px;
-        left: 273px;
-    }
-    .arrowlong-image img {
-        top: 84px;
-        width: 43px;
-        left: 225px;
     }
     .prism-team {
         height: 2360px;
@@ -2084,19 +2069,13 @@ body {
         width: 24px;
     }
     .arrow-image-contact p {
-        width: 139px;
+        width: 128px;
     }
     .arrow-image-contact img {
-        top: 85px;
-        left: 204px;
-        height: 30px;
-        width: 80px;
-    }
-    .arrowlong-image img {
-        top: 97px;
-        left: 140px;
-        height: 15px;
-        width: 57px;
+        height: 25px;
+        width: 62px;
+        margin-left: -1px;
+        margin-top: 26px;
     }
     .xr-year h6 {
         font-size: 18.5px;
@@ -2144,6 +2123,9 @@ body {
     }
     .prism-team {
         height: 2368px;
+    }
+    .arrow-long-bg {
+        background-size: 38%;
     }
     .prism-xr-contact-text-sm-democratizing img {
         left: 48px;
@@ -2252,17 +2234,10 @@ body {
     }
     .arrow-image-contact p {
         top: 265px;
-        width: 145px;
+        width: 132px;
     }
     .arrow-image-contact img {
-        top: 50px;
-    }
-    .arrow-image-contact img {
-        left: 161px;
-    }
-    .arrowlong-image img {
-        top: 64px;
-        left: 97px;
+        margin-top: 13px;
     }
     .prism-xr-contact-bottom-right-bar img {
         left: 89.5%;
@@ -2444,6 +2419,7 @@ body {
         top: 44px;
     }
 }
+
 
 /*@media only screen and (min-width: 1366px) {
     .section3:not(.h-section3),

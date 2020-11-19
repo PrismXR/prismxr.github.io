@@ -995,7 +995,7 @@ prism-contact-us */
     letter-spacing: -0.8px;
     margin-left: 278px;
     font-family: 'menlo';
-    width: 311px;
+    width: 280px;
     font-size: 11.22px;
     line-height: 12.68px;
 }
@@ -1010,22 +1010,15 @@ prism-contact-us */
 
 .arrow-image-contact {
     text-align: left;
+    display: flex;
+    width: 660px;
 }
 
 .arrow-image-contact img {
     height: 55px;
     width: 110px;
-    position: absolute;
-    top: 65px;
-    left: 542px;
-}
-
-.arrowlong-image img {
-    position: absolute;
-    height: 13px;
-    width: 70px;
-    left: 458px;
-    top: 95px;
+    margin-top: -12px;
+    margin-left: -34px;
 }
 
 .prism-xr-contact-bottom {
